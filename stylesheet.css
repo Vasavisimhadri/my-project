@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1800px;
+
+}
+
+.topbar {
+    background-color: orangered;
+    padding: 15px 40px;
+    color: white;
+
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    color: black;
+}
+
+.logo {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links li {
+
+    margin-top: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.join-btn {
+    border: 2px solid orangered;
+    background-color: orangered;
+    color: white !important;
+    padding: 5px 15px;
+
+}
+
+.content {
+    width: 50%;
+}
+
+.content h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+
+.content p {
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.content {
+    color: whitesmoke;
+
+}
+
+.image {
+    position: relative;
+    line-height: 50px;
+
+}
+
+.image .content {
+    position: absolute;
+    bottom: 0;
+    color: #dbd8d8;
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 600px;
+    margin-left: 100px;
+}
+
+.btn-primary {
+    border: 2px solid orangered;
+    padding: 10px 30px;
+    color: white;
+    background-color: orangered;
+}
+
+.btn-secondary {
+    border: 3px solid whitesmoke;
+    color: white;
+    padding: 10px 30px;
+    margin-left: 20px;
+}
+
+.buttons a {
+    text-decoration: none;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+.icons{
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    gap: 30px;
+    margin-right: 80px;
+}
